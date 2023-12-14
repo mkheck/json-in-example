@@ -17,5 +17,5 @@ Quick example requested to demonstrate acceptance/processing of JSON object valu
 
 If using HTTPie (https://httpie.org/):
 
-* Open a terminal window and run http :8080 - this will test the greeting at the root endpoint
-* From the terminal, run http :8080/aircraft < src/main/resources/aircraft.json - this will feed the JSON for an Aircraft to the controller and test the /aircraft endpoint
+* Open a terminal window and run `http :8080` - this will test the greeting at the root endpoint
+* From the terminal, run `http :8080/aircraft < src/main/resources/aircraft.json` - this will feed the JSON for an Aircraft to the controller and test the /aircraft endpoint
